@@ -10,7 +10,7 @@ mod tests {
     fn test_run_with_project_test_mode() {
         dotenv().expect(".env file not found");
         let test_mode = env::var("TEST_MODE").unwrap().to_string();
-        let output = Command::cargo_bin("rust_cargo_starter")
+        let output = Command::cargo_bin("rcs")
             .unwrap()
             .env(test_mode, "1")
             .output()

@@ -1,4 +1,4 @@
-#![crate_name = "rust_cargo_starter"]
+#![crate_name = "rcs"]
 #![crate_type = "lib"]
 
 use colored::*;

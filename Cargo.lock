@@ -126,19 +126,19 @@ dependencies = [
 ]
 
 [[package]]
-name = "regex-automata"
-version = "0.4.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5bb987efffd3c6d0d8f5f89510bb458559eab11e4f869acb20bf845e016259cd"
-
-[[package]]
-name = "rust_cargo_starter"
+name = "rcs"
 version = "0.1.0"
 dependencies = [
  "assert_cmd",
  "colored",
  "dotenvy",
 ]
+
+[[package]]
+name = "regex-automata"
+version = "0.4.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5bb987efffd3c6d0d8f5f89510bb458559eab11e4f869acb20bf845e016259cd"
 
 [[package]]
 name = "serde"

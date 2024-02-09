@@ -10,7 +10,7 @@ fn main() {
   // Call the `run()` function from the Rust and Cargo starter (RCS)` module.
   let project_name = env::var("PROJECT_NAME").unwrap().to_string();
 
-  if let Err(err) = rust_cargo_starter::run() {
+  if let Err(err) = rcs::run() {
       eprintln!("Error running {}: {}", project_name, err);
       std::process::exit(1);
   }
