@@ -74,7 +74,7 @@ Don't forget to change the ```TEST_MODE``` value back to 0 in your ```.env``` fi
 Should you use this starter as a, well starter project, then you **MUST** add ```.env``` to your ```.gitignore``` file because you do not want to commit all your private data (such as API keys) to a repository.
 
 ## Shout out
-Shout out the [@sebastienrousseau/](https://github.com/sebastienrousseau/) for pointing me towards Rust. Seb, I'm getting there slowly and this little repository was born from me starting to refactor another project that was/is not very well structured. 😄
+Shout out the [@sebastienrousseau](https://github.com/sebastienrousseau/) for pointing me towards Rust. Seb, I'm getting there slowly and this little repository was born from me starting to refactor another project that was/is not very well structured. 😄
 
 ## License
 
